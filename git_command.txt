@@ -14,3 +14,68 @@ git status\n
 git restore testing.py
 clear
 touch git_command.txt
+ 2203  git status\n
+ 2204  git add git_command.txt
+ 2205  git status\n
+ 2206  git commit -m "commit command"
+ 2207  git status\n
+ 2208  clear
+ 2209  git remote add origin https://github.com/Gaurav22020/github-for-devops-workshop.git
+ 2210  git remote -v
+ 2211  git push origin master
+ 2212  git remote set-url origin
+ 2213  git remote set-url origin https://@github.com/Gaurav22020/github-for-devops-workshop.git
+ 2214  git remote -v
+ 2215  git push origin master
+ 2216  git branch
+ 2217  git log
+ 2218  git branch -m main master\n
+ 2219  git push origin master\n
+ 2220  git log
+ 2221  git branch
+ 2222  git push origin master\n
+ 2223  git remote set-url origin https://@github.com/Gaurav22020/github-for-devops-workshop.git\n
+ 2224  git remote -v
+ 2225  git push origin master\n
+ 2226  git history
+ 2227  history
+ 2228  git status\n
+ 2229  git add git_command.txt
+ 2230  git status\n
+ 2231  git commit -m "added more  command"
+ 2232  git push origin master\n
+ 2233  git status\n
+ 2234  git add git_command.txt
+ 2235  git commit -m "added more  command"
+ 2236  git push origin master\n
+ 2237  git add git_command.txt
+ 2238  git commit -m "added more  command"
+ 2239  git push origin master\n
+ 2240  git status\n
+ 2241  git rm --cached git_command.txt
+ 2242  git add git_command.txt
+ 2243  git commit -m "added more  command"
+ 2244  git push origin master\n
+ 2245  git reset --soft HEAD~1\n
+ 2246  git add git_command.txt
+ 2247  git commit -m "added more  command"
+ 2248  git push origin master\n
+ 2249  git filter-branch --force --index-filter \\n'git rm --cached --ignore-unmatch git_command.txt' \\n--prune-empty --tag-name-filter cat -- --all\n
+ 2250  git add git_command.txt
+ 2251  git restore git_command.txt
+ 2252  git status\n
+ 2253  git add git_command.txt
+ 2254  git commit -m "added more  command"
+ 2255  git push origin master\n
+ 2256  git remote -v
+ 2257  touch newfile.txt
+ 2258  git add .
+ 2259  git status\n
+ 2260  git commit -m "added new file"
+ 2261  git push origin master\n
+ 2262  git push origin master --f\n
+ 2263  git push origin master --force\n
+ 2264  git add .
+ 2265  git commit -m "added content"
+ 2266  git push origin master
+ 2267  clear
