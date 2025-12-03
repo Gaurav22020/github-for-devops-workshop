@@ -1,0 +1,16 @@
+git init
+ls -a
+git status\n
+git add testing.py
+git status\n
+git rm --cached testing.py
+git status\n
+git add .
+git status\n
+git commit -m "intial commit
+git commit -m "intial commit"
+ls
+git status\n
+git restore testing.py
+clear
+touch git_command.txt
